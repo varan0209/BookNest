@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest - Your Online Library Shelf</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="bookshelf-container">
+        <nav class="sidebar">
+            <h2 class="logo">BookNest 📚</h2>
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#fiction">Fiction</a></li>
+                <li><a href="#non-fiction">Non-Fiction</a></li>
+                <li><a href="#self-help">Self-Help</a></li>
+                <li><a href="#tech">Tech</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header class="hero-banner">
+                <h1>Welcome Back, Reader!</h1>
+                <p>Your current reading list is looking great. Dive back into your next adventure.</p>
+            </header>
+
+            <section id="your-collection">
+                <h2>Your Collection</h2>
+                <div class="book-grid">
+                    <article class="book-card">
+                        <img src="images/The Midnight Library.jpg" alt="Book cover for The Midnight Library">
+                        <div class="card-content">
+                            <h4>The Midnight Library</h4>
+                            <p class="author">Matt Haig</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="genre-tag">Fiction</span>
+                        </div>
+                        <div class="hover-popup">
+                            <p>A beautiful story about choices, regrets, and the infinite possibilities of life.</p>
+                        </div>
+                    </article>
+
+                    <article class="book-card">
+                        <img src="images/Atomic Habits.jpg" alt="Book cover for Atomic Habits">
+                        <div class="card-content">
+                            <h4>Atomic Habits</h4>
+                            <p class="author">James Clear</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="genre-tag">Self-Help</span>
+                        </div>
+                         <div class="hover-popup">
+                            <p>An easy and proven way to build good habits and break bad ones.</p>
+                        </div>
+                    </article>
+
+                    <article class="book-card">
+                        <img src="images/Sapiens.jpg" alt="Book cover for Sapiens">
+                        <div class="card-content">
+                            <h4>Sapiens</h4>
+                            <p class="author">Yuval Noah Harari</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="genre-tag">History</span>
+                        </div>
+                         <div class="hover-popup">
+                            <p>A brief history of humankind, from the Stone Age to the Silicon Age.</p>
+                        </div>
+                    </article>
+                    
+                     <article class="book-card">
+                        <img src="images/Designing Data-Intensive Applications.jpg" alt="Book cover for Designing Data-Intensive Applications">
+                        <div class="card-content">
+                            <h4>Designing Data-Intensive Applications</h4>
+                            <p class="author">Martin Kleppmann</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="genre-tag">Tech</span>
+                        </div>
+                         <div class="hover-popup">
+                            <p>The big ideas behind reliable, scalable, and maintainable systems.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="recommended">
+                <h2>Recommended For You</h2>
+                <div class="recommended-scroll">
+                    <article class="book-card">
+                        <img src="images/Dune.jpg" alt="Book cover for Dune">
+                        <div class="card-content">
+                            <h4>Dune</h4>
+                            <p class="author">Frank Herbert</p>
+                            <span class="genre-tag">Fiction</span>
+                        </div>
+                    </article>
+
+                     <article class="book-card">
+                        <img src="images/The Power of Now.jpg" alt="Book cover for The Power of Now">
+                        <div class="card-content">
+                            <h4>The Power of Now</h4>
+                            <p class="author">Eckhart Tolle</p>
+                            <span class="genre-tag">Self-Help</span>
+                        </div>
+                    </article>
+
+                     <article class="book-card">
+                        <img src="images/A Short History of Nearly Everything.jpg" alt="Book cover for A Short History of Nearly Everything">
+                        <div class="card-content">
+                            <h4>A Short History of Nearly Everything</h4>
+                            <p class="author">Bill Bryson</p>
+                            <span class="genre-tag">Non-Fiction</span>
+                        </div>
+                    </article>
+
+                     <article class="book-card">
+                        <img src="images/Clean Code.jpg" alt="Book cover for Clean Code">
+                        <div class="card-content">
+                            <h4>Clean Code</h4>
+                            <p class="author">Robert C. Martin</p>
+                            <span class="genre-tag">Tech</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
